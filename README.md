@@ -100,15 +100,15 @@ The following screenshots show the implemented marketplace flow:
 
 ### Marketplace screen
 
-![1Fi Marketplace](docs/screenshots/01-marketplace.png)
+![1Fi Marketplace](docs/screenshots/marketplace.png)
 
 ### Dynamic variant and EMI selection
 
-![Variant and EMI selection](docs/screenshots/02-variant-and-emi.png)
+![Variant and EMI selection](docs/screenshots/varient.png)
 
 ### Confirmation bottom sheet
 
-![Confirmation bottom sheet](docs/screenshots/03-confirmation-sheet.png)
+![Confirmation bottom sheet](docs/screenshots/emi.png)
 
 For the final submission, also capture the success alert after pressing `Confirm & Apply`, plus the blank `Top Brands` and `Nearby Stores` tabs if the evaluator expects proof of all three tab states.
 
