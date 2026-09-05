@@ -100,19 +100,21 @@ The following screenshots show the implemented marketplace flow:
 
 ### Marketplace screen
 
-![1Fi Marketplace](docs/screenshots/marketplace.png)
+<img src="docs/screenshots/marketplace.png" alt="1Fi Marketplace" width="280" />
 
 ### Dynamic variant and EMI selection
 
-![Variant and EMI selection](docs/screenshots/varient.png)
+<img src="docs/screenshots/varient.png" alt="Variant and EMI selection" width="280" />
 
 ### Confirmation bottom sheet
 
-![Confirmation bottom sheet](docs/screenshots/emi.png)
+<ia clean submission, use a consistent mobile viewport and make sure the screenshots do not include browser developer tools, terminal windows, or unrelatmg src="docs/screenshots/emi.png" alt="Confirmation bottom sheet" width="280" />
 
-For the final submission, also capture the success alert after pressing `Confirm & Apply`, plus the blank `Top Brands` and `Nearby Stores` tabs if the evaluator expects proof of all three tab states.
+### Success confirmation
 
-For a clean submission, use a consistent mobile viewport and make sure the screenshots do not include browser developer tools, terminal windows, or unrelated starter content.
+<img src="docs/screenshots/final.png" alt="Success confirmation" width="280" />
+
+For ed starter content.
 
 ## Validation
 
