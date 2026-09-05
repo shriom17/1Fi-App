@@ -108,7 +108,7 @@ The following screenshots show the implemented marketplace flow:
 
 ### Confirmation bottom sheet
 
-<ia clean submission, use a consistent mobile viewport and make sure the screenshots do not include browser developer tools, terminal windows, or unrelatmg src="docs/screenshots/emi.png" alt="Confirmation bottom sheet" width="280" />
+<img src="docs/screenshots/emi.png" alt="Confirmation bottom sheet" width="280" />
 
 ### Success confirmation
 
