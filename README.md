@@ -64,7 +64,11 @@ src/
       app-tabs.tsx      # Native tab navigation
       app-tabs.web.tsx  # Web tab navigation
    screens/
-      ShopScreen.js     # Marketplace UI, state, modal, and styles
+      ShopScreen.js     # Shop tabs and marketplace entry point
+   features/marketplace/
+      MarketplaceTab.js
+      components/       # Product card and selection controls
+      data/              # Mock products and async service
    constants/
       theme.ts          # Shared theme tokens
    hooks/              # Theme and color-scheme hooks
@@ -73,13 +77,13 @@ assets/               # App icons and static assets
 
 ## Marketplace Data and State
 
-Product data is kept in the `MOCK_PRODUCTS` structure inside `ShopScreen.js`, separate from the rendered UI. Each product contains variants, variant prices, and available EMI durations.
+Product data is kept in `src/features/marketplace/data/products.js`, separate from the rendered UI. The mock service returns it asynchronously to simulate an API without adding a backend. Each product contains variants, variant prices, and available EMI durations.
 
 The screen maintains selection state per product:
 
 - `variantId` stores the selected variant
 - `plan` stores the selected EMI duration
-- Monthly payment is calculated from the selected variant price and plan
+- Monthly payment is calculated from the selected variant price and plan, with total payable kept equal to the product price
 
 The mock data can be replaced with an API service later without changing the product card interaction flow.
 
@@ -113,8 +117,6 @@ The following screenshots show the implemented marketplace flow:
 ### Success confirmation
 
 <img src="docs/screenshots/final.png" alt="Success confirmation" width="280" />
-
-For ed starter content.
 
 ## Validation
 
